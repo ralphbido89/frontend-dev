@@ -1,3 +1,193 @@
 * {
+   
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+
+
+}
+
+body {
     font-family: Arial, Helvetica, sans-serif;
 }
+
+html {
+    scroll-behavior: smooth;
+}
+
+p {
+    color: rgb(85, 85, 85);
+
+}
+
+a, .btn {
+    transition: all .4s ease;
+}
+
+/* NAVBAR */
+
+.nav-links {
+    display: flex;
+    gap: 2rem;
+} 
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 12vh;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    text-decoration-color: white;
+}
+
+.logo-tree {
+    size: 4rem;
+}
+
+a:hover {
+    color: grey;
+    text-decoration: underline;
+    text-underline-offset: 1rem ;
+    text-decoration-color: rgb(181, 181, 181);
+}
+
+.logo {
+    font-size: 2rem;
+    size: 4rem;
+}
+
+.logo:hover {
+    cursor: pointer;
+}
+
+.state-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    margin: 2rem;
+}
+
+.la-pic {
+    width: 12rem;
+    height: 12rem;
+    border-radius: 50%;
+    margin-left: 3rem;
+    margin-bottom: 2rem;
+}
+
+.sd-pic {
+    width: 12rem;
+    height: 12rem;
+    border-radius: 50%;
+    margin-left: 3rem;
+    margin-bottom: 2rem;
+}
+
+.sac-pic {
+    width: 12rem;
+    height: 12rem;
+    border-radius: 50%;
+    margin-left: 3rem;
+}
+
+.main {
+    display: flex;
+} 
+
+.state-desc {
+    margin: 5rem;
+    margin-left: 18rem;
+    width: 25rem;
+    text-align: center;
+}
+
+/* GRID */
+
+.state-title {
+    margin: 0;
+    display: grid;
+    grid-template-columns: 100px;
+    grid-template-areas: "header header" "section section";
+    row-gap: 3rem;
+}
+
+.title {
+    grid-area: header;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    place-items: center;
+}
+
+.state-description {
+    grid-area: section;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    place-items: center;
+    
+   
+    
+}
+.the-content {
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+   
+}
+
+.text {
+    text-align: center;
+}
+
+p {
+    margin-top: 10px;
+}
+
+
+
+
+/* ASIDE */
+.aside {
+    padding: 2rem;
+    margin-right: 4rem;
+    position: absolute;
+    top: 13rem;
+    right: 2rem;
+    border: 5px black solid;
+}
+.content-aside {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+}
+
+.title-facts {
+    text-decoration: underline;
+    text-underline-offset: 10px;
+}
+
+.cities-major {
+    margin-top: 2px;
+}
+
+li {
+    margin-top: 2px;
+}
+
+/* footer */
+
+.footer-div {
+    display: flex;
+    justify-content: left;
+    margin: 2rem 15rem;
+   
+}
+
