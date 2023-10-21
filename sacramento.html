@@ -4,17 +4,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
     <title>Document</title>
 </head>
 <body>
-    <h1>Sacramento</h1>
-    <div class="grid-container">
-        <div class="grid-item grid-1"></div>
-        <div class="grid-item grid-2"></div>
-        <div class="grid-item grid-3"></div>
-        <div class="grid-item grid-3"></div>
-        <div class="grid-item grid-3"></div>
-        <div class="grid-item grid-3"></div>
-    </div>
+    <nav id="navigation-bar">
+        <div class="logo"><a href="index.html"><span class="material-symbols-outlined logo-tree">
+            nature
+            </span></a></div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="sacramento.html" target="_blank">Sacramento</a></li>
+                <li><a href="sandiego.html">San Diego</a></li>
+                <li><a href="losangeles.html">Los Angeles</a></li>
+                <li><a href="index.html">Contact Us</a></li>
+            </ul>
+        </div>
+       
+    </nav>
+    <header class="sac-header">
+        <div class="title-cont">
+            <h1>Sacramento</h1>
+           
+        </div>
+    </header>
+    <section class="section-cont">
+        <div class="grid-cont">
+           
+            <div class="image-cont">
+                <img class="sac-img" src="images/sac1.jpg" alt="">
+                <img class="sac-img" src="images/sac2.jpg" alt="">
+            </div>
+        </div>
+
+        <div class="description-city">
+            <p>Sacramento is a gorgeous city located in Northern California and is the state's capital.</p>
+        </div>
+    </section>
+
+    <aside class="aside">
+        <div class="content-aside">
+            <h3 class="title-facts"><u>City Facts</u></h3>
+            <h3>Population: <span class="text-small">525,040</span></h3>
+            <h3>Mayor: <span class="text-small">Darrell Steinberg</span></h3>
+            <h3>Chartered: <span class="text-small">1920</span></h3>
+            <h3>Region: Sacramento Valley</h3>
+        </div>
+
+        <button class="info-button" type="button">More info</button>
+    </aside>
 </body>
 </html>

@@ -86,3 +86,40 @@ th {
     align-items: center;
    
 }
+
+
+/* ASIDE */
+
+.aside {
+    padding: 2rem;
+    margin-right: 4rem;
+    position: absolute;
+    top: 13rem;
+    right: 2rem;
+    border: 5px black solid;
+}
+.content-aside {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+}
+
+.title-facts {
+    text-decoration: underline;
+    text-underline-offset: 10px;
+}
+
+.cities-major {
+    margin-top: 2px;
+}
+
+li {
+    margin-top: 2px;
+}
+
+.info-button {
+    margin-left: 6rem;
+    margin-top: 5rem;
+    padding: 5px;
+}
