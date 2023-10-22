@@ -4,27 +4,74 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <title>San Diego</title>
 </head>
 <body>
-    <nav>
-        <p><a href="index.html">Home</a></p>
+    <nav id="navigation-bar">
+        <div class="logo"><a href="index.html"><span class="material-symbols-outlined logo-tree">
+            nature
+            </span></a></div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="sacramento.html" target="_blank">Sacramento</a></li>
+                <li><a href="sandiego.html">San Diego</a></li>
+                <li><a href="losangeles.html">Los Angeles</a></li>
+                <li><a href="index.html">Contact Us</a></li>
+            </ul>
+        </div>
+       
     </nav>
-
-    <header>
-        <h1>San Diego</h1>
+    <header class="sac-header">
+        <div class="title-cont">
+            <h1>San Diego</h1>
+           
+        </div>
     </header>
 
-    
+    <!-- FLOAT ELEMENT -->
+    <div class="main-image float-element">
+        <h3 class="image-head">Tourist Spots</h3>
+        <img id="main-imagery" src="/images/sd3.jpg" alt="sunset by the street">
+        <img id="main-imagery" src="/images/sd4.jpg" alt="docked yacht by the shore">
+    </div>
 
 
-    <section>
-        <h2>Population: </h2>
-        <h2>City Incorporated: </h2>
-        <h2>Region of the state San Diego is located </h2>
-        <h2>is it urban, suburban, or rural </h2>
-        <h2>average income </h2>
-        <h2>average income </h2>
+    <!-- MAIN SECTION -->
+
+    <section class="section-cont">
+
+       
+        <div class="grid-cont">
+           
+            <div class="image-cont">
+                <img class="sac-img" src="images/sdmain.jpg" alt="san diego water view">
+                <img class="sac-img" src="images/sd2.jpg" alt="la jolla cove beaches">
+            </div>
+        </div>
+
+        <div class="description-city">
+            <p>Sacramento is a gorgeous city located in Northern California and is the state's capital.</p>
+            <p>It is home to urban living accompanied with green sceneries and mountains.</p>
+            <p>Sacramento is also the center for California's healthcare industry and educational Hub.</p>
+            <p>Notable institutions in Sacramento are UC Davis and Cal State University.</p>
+        </div>
     </section>
+
+    <aside class="aside">
+        <div class="content-aside">
+            <h3 class="title-facts"><u>City Facts</u></h3>
+            <h3>Population: <span class="text-small">525,040</span></h3>
+            <h3>Mayor: <span class="text-small">Darrell Steinberg</span></h3>
+            <h3>Incorporated: <span class="text-small">1850</span></h3>
+            <h3>Region: Sacramento Valley</h3>
+            <h3>City Class: Urban</h3>
+            <h3>Ave. Income: 33,565 USD </h3>
+        </div>
+
+        <button class="info-button" type="button">More info</button>
+    </aside>
 </body>
 </html>

@@ -50,10 +50,10 @@ a {
 }
 
 a:hover {
-    color: grey;
+    color: rgb(20, 10, 10);
     text-decoration: underline;
     text-underline-offset: 1rem ;
-    text-decoration-color: rgb(181, 181, 181);
+    text-decoration-color: rgb(252, 117, 117);
 }
 
 .logo {
@@ -105,6 +105,10 @@ a:hover {
     margin-left: 18rem;
     width: 25rem;
     text-align: center;
+}
+
+.navigation-bar {
+    position: fixed;
 }
 
 /* GRID */
@@ -184,6 +188,8 @@ li {
 }
 
 .info-button {
+    position: relative;
+    left: 20px;
     margin-left: 5rem;
     margin-top: 5rem;
     padding: 5px;
@@ -236,4 +242,65 @@ li {
 .description-city {
     margin-top: 7px;
     padding: 1rem;
+    text-align: center;
+}
+
+#main-imagery {
+    width: 10rem;
+    height: 10rem;
+    float: left;
+    border-radius: 40%;
+}
+
+.main-image {
+    position: absolute;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    left: 3rem;
+    top: 16rem;
+}
+
+.image-head {
+    text-decoration: underline;
+    text-decoration-style: double;
+    text-underline-offset: 1rem;
+}
+
+
+/* FORM */
+
+.submit-contactus {
+    max-width: 502px;
+    margin: 2rem auto;
+    border: 2px solid;
+    padding: 2rem;
+}
+
+label {
+    display: block;
+    margin: 0.5rem 0;
+}
+
+input {
+    width: 50%;
+    display: block;
+    border: 2px solid rgb(71, 71, 100);
+    padding: 1rem;
+}
+
+#submit-input {
+    cursor: pointer;
+    box-sizing: border-box;
+    border: 0;
+    background: rgb(120, 236, 197);
+    padding: .8rem;
+    margin: 1.2rem 0;
+    width: auto;
+    transition: 0.8s all ease;
+}
+
+#submit-input:hover {
+    background: beige;
 }
