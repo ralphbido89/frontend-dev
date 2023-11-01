@@ -304,3 +304,7 @@ input {
 #submit-input:hover {
     background: beige;
 }
+
+.validator-msg {
+    margin-top: 2rem;
+}

@@ -23,12 +23,13 @@
                 <li><a href="sandiego.html">San Diego</a></li>
                 <li><a href="losangeles.html">Los Angeles</a></li>
                 <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="sources.html">Sources</a></li>
             </ul>
         </div>
        
     </nav>
 
-    <form class="submit-contactus"  action="success.html" method="GET">
+    <form class="submit-contactus" id="form" action="success.html" method="GET">
         
             <label for="name-input">Full Name </label>
             <input type="text" name="name-input" id="name-input" placeholder="ex. John Doe" required>
@@ -39,9 +40,12 @@
             <input type="text" name="email-input" id="email-input" placeholder="myemail@gmail.com" required>
 
             <label for="confirm-email-input">Confirm Email </label>
-            <input type="text" name="email-input" id="email-input" placeholder="myemail@gmail.com" required>
-   
+            <input type="text" name="confirm-email-input" id="confirm-email-input" placeholder="myemail@gmail.com" required>
 
+            <div class="validator-msg">
+                <h3 id="validator-txt">Please put a valid Email</h3>
+            </div>
+            
         
             
             <input  type="submit" name="submit-input" id="submit-input">
@@ -50,5 +54,7 @@
 
 
     </form>
+
+    <script src="script.js"></script>
 </body>
 </html>
