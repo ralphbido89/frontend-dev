@@ -195,6 +195,12 @@ li {
     padding: 5px;
 }
 
+.button-source {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 /* footer */
 
 .footer-div {
